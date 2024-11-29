@@ -1,0 +1,17 @@
+.ProductCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid olive;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.ProductCard_button{
+    background-color: olive;
+    border-color: 1px solid olive;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}

@@ -1,0 +1,16 @@
+.banner {
+    background-color: rgba(128, 128, 0, 0.4); 
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 56px; 
+    font-weight: bold;
+  }
+  
