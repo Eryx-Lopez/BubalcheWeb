@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import css from './Navbar.module.css';
 import logo from '../../assets/Logos/BubalcheLogo.png';
 import letras from '../../assets/Logos/BubalcheLetra.png';
-
-
+import { FaUser } from "react-icons/fa6";
+import { FaCartShopping } from "react-icons/fa6";
 
 class Navbar extends Component {
     render() {
@@ -17,8 +17,8 @@ class Navbar extends Component {
     
             <input type="text" placeholder="Buscar" className={css.search_bar}/>
             <div className={css.icons}> 
-              <img src="ruta-de-tu-imagen-perfil" alt="Perfil" className={css.icon}/>
-              <img src="ruta-de-tu-imagen-carrito" alt="Carrito" className={css.icon}/> 
+            <FaUser size={30}/>
+            <FaCartShopping size={30} className={css.icon}/>
             </div>
           </div>
           <ul className={css.lower_navbar}>

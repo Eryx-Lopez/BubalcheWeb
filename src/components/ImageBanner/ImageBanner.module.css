@@ -1,7 +1,8 @@
 .banner_container{
     display: flex;
     flex-direction: row;
-    margin: 42px 0;
+    margin: 0 0 42px 0;
+    border-bottom: 2px solid olive;
 }
 
 .left_banner{
@@ -37,6 +38,7 @@
     color: white;
     font-weight: bold;
     font-size: 16px;
+    width: 30%;
     
   }
 

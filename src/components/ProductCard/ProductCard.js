@@ -23,7 +23,7 @@ class ProductCard extends Component {
 
         <div className={css.ProductCard_price}>
         <p>{product.price}</p>
-        <button className={css.ProductCard_button}>Add to cart</button>
+        <button className={css.ProductCard_button}>Añadir</button>
         </div>
       </div>
     );

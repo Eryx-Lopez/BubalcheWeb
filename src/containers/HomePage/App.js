@@ -4,10 +4,12 @@ import { products } from '../../utils/products';
 import { Banner } from '../../components';
 import Navbar from '../../components/Navbar/Navbar';
 import ImageBanner from '../../components/ImageBanner/ImageBanner';
+import Footer from '../../components/Footer/Footer';
 
 function App() {
   return (
     <div>
+        {/*NAVBAR*/}
         <div>
             <Navbar/>
         </div>
@@ -29,6 +31,11 @@ function App() {
                 text={<>Contáctanos para ver qué tienes en mente y hacerlo <br></br><span className={css.underline}>realidad</span></>}
                 button_text={"Mándanos correo"}/>
             </div>
+
+        {/*FOOTER*/}
+        <div>
+            <Footer/>
+        </div>
 
         </div>
   );
