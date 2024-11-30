@@ -1,0 +1,53 @@
+.banner_container{
+    display: flex;
+    flex-direction: row;
+    margin: 42px 0;
+}
+
+.left_banner{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid olive;
+    padding: 0 100px 0 40px;
+    margin-right: -300px;
+    
+}
+
+.title {
+    color: olive;
+    font-size: 48px; 
+    font-weight: bold;
+    width: 100%;
+    min-height: 148px;
+  }
+
+  .text {
+    color: olive;
+    font-size: 20px; 
+    margin-bottom: 24px;
+  }
+  
+  .button{
+    background-color: rgba(128, 128, 0, 0.4); 
+    padding: 8px 40px;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+
+  .right_banner{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .right_banner img{
+    
+
+    max-height: 300px;
+  }

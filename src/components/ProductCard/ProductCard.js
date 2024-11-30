@@ -12,15 +12,19 @@ class ProductCard extends Component {
 
     return (
       <div className={classNames(css.ProductCard, className)}>
-        <div className={css.ProductCard_header}>
-          <img src={product.image} alt="product_img" />
+        <div className={css.ProductCard_image}>
+          <img src={product.image} alt="product_img"/>
         </div>
+        
         <div className={css.ProductCard_body}>
-          <h3>{product.name}</h3>
-          <p>{product.description}</p>
-          <p>{product.price}</p>
+          <h3 className={css.description_Title}>{product.name}</h3>
+          <p className={css.description}>{product.description}</p>
         </div>
+
+        <div className={css.ProductCard_price}>
+        <p>{product.price}</p>
         <button className={css.ProductCard_button}>Add to cart</button>
+        </div>
       </div>
     );
   }

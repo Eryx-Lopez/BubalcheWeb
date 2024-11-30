@@ -1,17 +1,47 @@
+.description{
+    margin-top: 0;
+}
+
+.description_Title{
+    margin-bottom: 0;
+}
+
+.ProductCard_image{
+    padding-bottom: 8px;
+    border-bottom: 2px solid olive;
+
+}
+
+.ProductCard_image img{
+    height: 250px;
+    width: 250px;
+}
+
 .ProductCard{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     border: 2px solid olive;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: 10px;
 }
 
 .ProductCard_button{
     background-color: olive;
-    border-color: 1px solid olive;
-    border-radius: 5px;
+    border: 2px solid olive;
+    border-radius: 20px;
     color: white;
-    padding: 8px;
+    padding: 8px 16px; 
+    height: fit-content;
+}
+
+.ProductCard_price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    
 }

@@ -1,0 +1,80 @@
+.navbar{
+
+}
+
+.upper_navbar{ 
+  display: flex; 
+  align-items:center; 
+  justify-content:flex-start; 
+  height: 80px;
+}
+.logos_container{ 
+  display: flex; 
+  align-items:flex-end; 
+  justify-content:flex-start; 
+}
+
+.logo{
+  height: 56px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+  
+.logo_letra{
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.search_bar{
+  width: 40%;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  background-color: rgba(128, 128, 0, 0.4); 
+  border-radius: 20px;
+  border: 2px solid rgba(128, 128, 0, 0.4);
+  color: white;
+}
+
+.search_bar::placeholder { 
+  color: olive; 
+  font-weight: bold;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 22rem;
+
+}
+
+.icon{
+  height: 40px;
+  margin-left: 1rem;
+}
+
+
+.lower_navbar {
+  background-color: rgba(128, 128, 0, 0.4); 
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 8px;
+
+}
+
+.navbar_item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+ 
+}
+
+.navbar_item a:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+  border-bottom: 2px solid olive;
+ 
+}
+

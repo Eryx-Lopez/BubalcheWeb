@@ -1,16 +1,40 @@
 .banner {
-    background-color: rgba(128, 128, 0, 0.4); 
+    border-top: 2px solid rgba(128, 128, 0, 0.4); 
+    border-bottom: 2px solid rgba(128, 128, 0, 0.4); 
     height: 200px; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
+
+
+    padding: 32px 0;
+
   }
   
-  .text {
-    color: white;
-    font-size: 56px; 
+  .title {
+    color: olive;
+    font-size: 48px; 
     font-weight: bold;
   }
+
+  .text {
+    color: olive;
+    font-size: 20px; 
+    margin-bottom: 24px;
+  }
   
+  .button{
+    background-color: rgba(128, 128, 0, 0.4); 
+    padding: 8px 40px;
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
