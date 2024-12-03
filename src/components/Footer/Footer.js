@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import css from './Footer.module.css';
 import logo from '../../assets/Logos/BubalcheLogo.png';
+import { NavLink } from "react-router-dom";
 
 
 class Footer extends Component {
@@ -9,11 +10,12 @@ class Footer extends Component {
             <footer className={css.footer}>
                 <div className={css.left}>
                     <ul className={css.footer_list}>
-                        <li className={css.footer_item}><a href="#informacion">Informacion</a></li>
-                        <li className={css.footer_item}><a href="#buscar">Buscar</a></li>
-                        <li className={css.footer_item}><a href="#nosotros">Sobre Nosotros</a></li>
-                        <li className={css.footer_item}><a href="#contacto">Contacto</a></li>
-                        <li className={css.footer_item}><a href="#ayuda">Ayuda</a></li>
+                        <NavLink to="/designs" className={css.footer_item}>Detalles</NavLink>
+                        <NavLink to="/" className={css.footer_item}>Buscar</NavLink>
+                        <NavLink to="/designs" className={css.footer_item}>Nosotros</NavLink>
+                        <NavLink to="/about" className={css.footer_item}>Contacto</NavLink>
+                        <NavLink to="/about" className={css.footer_item}>Ayuda</NavLink>
+
                     </ul>
                 </div>
                 <div className={css.center}>

@@ -1,11 +1,11 @@
 import css from './App.module.css';
-import ProductCard from '../../components/ProductCard/ProductCard';
-import { products } from '../../utils/products';
-import Banner from '../../components/Banner/Banner';
 
+import Banner from '../../components/Banner/Banner';
+import Modals from '../../components/Modal/Modals.js';
 import ImageBanner from '../../components/ImageBanner/ImageBanner';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import Products from '../../components/Products/Products';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <div>
             <Navbar/>
         </div>
+    <Modals/>
             {/*BANNER IMAGEN*/}
             <div> 
                 <ImageBanner title={"Adopta a tu nuevo compañero"} 
@@ -21,10 +22,8 @@ function App() {
                 button_text={"Adoptar"}/>
             </div>
             {/*PRODUCTOS*/}
-            <div className={css.ProductList}>
-                {products.map((product) =>{
-                    return <ProductCard key={product.id} product={product} className={css.ProductList_card}/>
-                })}
+            <div>
+                <Products/>
             </div>
             {/*BANNER*/}
             <div> 

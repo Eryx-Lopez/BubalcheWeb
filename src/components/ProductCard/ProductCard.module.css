@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     padding: 20px;
     border: 2px solid olive;
     border-radius: 20px;
@@ -28,12 +29,20 @@
 }
 
 .ProductCard_button{
-    background-color: olive;
-    border: 2px solid olive;
+    background-color: rgba(128, 128, 0, 0.4);
+    border: 2px solid white;
     border-radius: 20px;
     color: white;
     padding: 8px 16px; 
     height: fit-content;
+    font-weight: bold;
+}
+
+.ProductCard_button:hover{
+    background-color: olive; 
+    border: 2px solid white;
+    color: white;
+
 }
 
 .ProductCard_price{

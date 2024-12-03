@@ -7,20 +7,19 @@
 }
 
 .footer_list{
+    display: flex;
+    flex-direction: column;
     padding: 0 15px;
     list-style: none;
     
 }
 
-.footer_item a {
+.footer_item {
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 2rem;
-    margin-bottom: 10px;
-}
-
-.footer_item {
     margin-bottom: 10px;
 }
 
@@ -83,4 +82,5 @@ input::placeholder {
     color: olive;
     padding: 8px 16px; 
     height: fit-content;
+    margin-top: 8px
 }

@@ -3,15 +3,15 @@
     flex-direction: row;
     margin: 0 0 42px 0;
     border-bottom: 2px solid olive;
+
 }
 
 .left_banner{
     display: flex;
     flex-direction: column;
-    border-right: 2px solid olive;
-    padding: 0 100px 0 40px;
-    margin-right: -300px;
-    
+    padding: 0 0 0 40px;
+    flex: 1;
+
 }
 
 .title {
@@ -39,17 +39,27 @@
     font-weight: bold;
     font-size: 16px;
     width: 30%;
-    
+  }
+
+  .button:hover{
+    background-color: olive;
   }
 
   .right_banner{
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+   
+    flex: 1;
+
   }
 
   .right_banner img{
-    
-
-    max-height: 300px;
+    height: 300px;
+    width: 550px;
   }
+
+  .divider {
+    width: 2px;
+    background-color: olive; /* Puedes cambiar el color y el ancho según tu preferencia */
+    margin: 25px 0 25px -150px; /* Ajusta el espacio entre los banners */
+}
