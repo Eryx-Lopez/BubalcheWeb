@@ -9,21 +9,21 @@ export const products = [
         image: AjoloteMago,
         name: 'Ajolote Mago',
         description: 'Peluche de Ajolote Mago imantado didactico',
-        price: '$500'
+        price: 500
     },
     {
         id: 2,
         image: AjoloteVaquero,
         name: 'Ajolote Vaquero',
         description: 'Peluche de Ajolote Vaquero imantado didactico',
-        price: '$550'
+        price: 550
     },
     {
         id: 3,
         image: AjoloteTalavera,
         name: 'Ajolote Talavera',
         description: 'Peluche de Ajolote Talavera imantado didactico',
-        price: '$600'
+        price: 600
     }
 
 ]

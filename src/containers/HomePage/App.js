@@ -1,9 +1,10 @@
 import css from './App.module.css';
-import { ProductCard } from '../../components';
+import ProductCard from '../../components/ProductCard/ProductCard';
 import { products } from '../../utils/products';
-import { Banner } from '../../components';
-import Navbar from '../../components/Navbar/Navbar';
+import Banner from '../../components/Banner/Banner';
+
 import ImageBanner from '../../components/ImageBanner/ImageBanner';
+import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
             <Footer/>
         </div>
 
-        </div>
+    </div>
   );
 }
 
