@@ -1,8 +1,9 @@
-import css from './DesignsPage.module.css';
 import  ProductCard from '../../components/ProductCard/ProductCard';
 import { products } from '../../utils/products';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import css from './DesignsPage.module.css';
+
 
 const DesignsPage = () =>{
     return(

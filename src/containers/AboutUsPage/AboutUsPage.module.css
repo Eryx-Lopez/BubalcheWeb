@@ -1,0 +1,37 @@
+.AboutUsPage{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .team, .history, .values {
+    margin-top: 30px;
+  }
+  
+  .team_member {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .team_member img {
+    border-radius: 50%;
+    width: 100%;
+  }
+  
+.values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.values ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  

@@ -31,10 +31,10 @@ class Navbar extends Component {
               <NavLink to="/designs">Diseños</NavLink>
             </li>
             <li className={css.navbar_item}>
-              <NavLink to="/">Organizaciones</NavLink>
+              <NavLink to="/org">Organizaciones</NavLink>
             </li>
             <li className={css.navbar_item}>
-              <NavLink to="/">Nosotros</NavLink>
+              <NavLink to="/about">Nosotros</NavLink>
             </li>
             <li className={css.navbar_item}>
               <NavLink to="/cart">Carrito</NavLink>
