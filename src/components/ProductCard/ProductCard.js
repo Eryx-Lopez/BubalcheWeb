@@ -23,7 +23,27 @@ class ProductCard extends Component {
 
         <div className={css.ProductCard_price}>
         <p>{product.price}</p>
-        <button className={css.ProductCard_button}>Añadir</button>
+        <button 
+          type="button" 
+          className={css.ProductCard_button}
+          onClick={(e) =>{
+            e.preventDefault();
+
+            const currentCart = JSON.parse(localStorage.getItem("cart-bubalche")) || [];
+            let productTemp = currentCart.find((item) => item.id === product.id);
+
+            if(productTemp){
+              productTemp.quantity += 1;
+            }else{
+              currentCart.push({ id: product.id, quantity: 1})
+            }
+
+            localStorage.setItem("cart-bubalche", JSON.stringify(currentCart));
+          }}
+        >
+          
+          Añadir
+        </button>
         </div>
       </div>
     );

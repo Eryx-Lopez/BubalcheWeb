@@ -1,4 +1,10 @@
-import { HomePage, AboutUsPage } from './containers';
+import { 
+    HomePage,
+    AboutUsPage,
+    CartPage,
+    DesignsPage,
+    OrgPage
+} from './containers';
 
 export const routes = [
     { 
@@ -6,7 +12,19 @@ export const routes = [
         element: <HomePage/>
     },
     {
-        path: 'about-us',
+        path: '/designs',
+        element: <DesignsPage/>
+    },
+    {
+        path: '/cart',
+        element: <CartPage/>
+    },
+    {
+        path: '/org',
+        element: <OrgPage/>
+    },
+    {
+        path: '/about',
         element: <AboutUsPage/>
     }
 ]

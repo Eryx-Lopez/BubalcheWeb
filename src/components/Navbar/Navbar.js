@@ -4,6 +4,7 @@ import logo from '../../assets/Logos/BubalcheLogo.png';
 import letras from '../../assets/Logos/BubalcheLetra.png';
 import { FaUser } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 class Navbar extends Component {
     render() {
@@ -22,10 +23,22 @@ class Navbar extends Component {
             </div>
           </div>
           <ul className={css.lower_navbar}>
-            <li className={css.navbar_item}><a href="#peluches">Peluches</a></li>
-            <li className={css.navbar_item}><a href="#disenios">Diseños</a></li>
-            <li className={css.navbar_item}><a href="#organizaciones">Organizaciones</a></li>
-            <li className={css.navbar_item}><a href="#nosotros">Nosotros</a></li>
+            <li className={css.navbar_item}>
+              <NavLink to="/">Inicio</NavLink>
+
+            </li>
+            <li className={css.navbar_item}>
+              <NavLink to="/designs">Diseños</NavLink>
+            </li>
+            <li className={css.navbar_item}>
+              <NavLink to="/org">Organizaciones</NavLink>
+            </li>
+            <li className={css.navbar_item}>
+              <NavLink to="/about">Nosotros</NavLink>
+            </li>
+            <li className={css.navbar_item}>
+              <NavLink to="/cart">Carrito</NavLink>
+            </li>
           </ul>
 
         </nav>

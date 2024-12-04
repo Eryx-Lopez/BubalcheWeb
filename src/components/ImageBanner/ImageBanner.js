@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import css from './ImageBanner.module.css';
-import BannerImage from '../../assets/Productos/LoboMexicano.png';
+import BannerImage from '../../assets/Productos/Peluches/LoboMexicano.png';
 
 class ImageBanner extends Component {
     render() {
@@ -12,6 +12,7 @@ class ImageBanner extends Component {
                     <div className={css.text}> { text } </div>
                     <button className={css.button}>{ button_text }</button>
                 </div>
+                <div className={css.divider}></div>
                 <div className={css.right_banner}>
                     <img src={BannerImage} alt="Producto de temporada"/>
                 </div>
