@@ -14,7 +14,7 @@ function App() {
         <div>
             <Navbar/>
         </div>
-    <Modals/>
+
             {/*BANNER IMAGEN*/}
             <div> 
                 <ImageBanner title={"Adopta a tu nuevo compañero"} 

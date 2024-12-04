@@ -1,37 +1,86 @@
+
 .AboutUsPage{
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  width: 90%;
+  padding-bottom: 40px;
+  border-bottom: 2px solid olive;
+}
+
+.left_header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 48px;
+  width: 40%;
+}
+
+h1{
+  color: olive;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.left_header p{
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.right_header{
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 35%;
+}
+
+.button{
+  background-color: rgba(128, 128, 0, 0.4); 
+  padding: 8px 40px;
+  margin-top: 24px;
+  margin-right: 24px;
+
+  border: 2px solid white;
+  border-radius: 20px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 40%;
+  float: right;
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.members{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
   
-  h1, h2 {
-    color: #333;
-  }
+.team_member {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  margin-right: 20px;
+}
   
-  .team, .history, .values {
-    margin-top: 30px;
-  }
-  
-  .team_member {
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    margin-right: 20px;
-  }
-  
-  .team_member img {
-    border-radius: 50%;
-    width: 100%;
-  }
-  
-.values ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-.values ul li {
-    background: #f4f4f4;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 4px;
-  }
+.team_member img {
+  border-radius: 50%;
+  width: 100%;
+}
+
   
